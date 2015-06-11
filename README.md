@@ -16,3 +16,17 @@ webrtc_ros is released with a BSD license. For full terms and conditions, see th
 
 ### Authors
 See the [AUTHORS](AUTHORS.md) file for a full list of contributors.
+
+### Required packages to be installed 
+
+With HR stack already installed. Might need aditional packages on bare ROS.
+
+```
+sudo apt-get install default-jdk
+sudo apt-get install libdbus-glib-1-dev 
+sudo apt-get install libnss3-dev
+sudo apt-get install libudev-dev
+sudo apt-get install libpulse-dev
+sudo apt-get install libasound2-dev
+sudo apt-get install ros-indigo-async-web-server-cpp
+```
